@@ -98,8 +98,8 @@ token=Token
 ----------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------
 namebot = redis:get(bot_id..":namebot") or " سكولز"
-SudosS = {874820580}
-Sudos = {sudoid,874820580}
+SudosS = {258295856}
+Sudos = {sudoid,258295856}
 ----------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------
 function Bot(msg)  
@@ -7671,7 +7671,7 @@ end
 end
 bot.sendText(msg.chat_id,msg.id,Reply_Status(msg.sender.user_id,t).yu,"md",true)  
 end
-if text == 'الادامن' then
+if text == 'الادمنيه' then
 t = '\n*  ᥀︙قائمة '..text..'  \n ٴ─━─━─━─×─━─━─━─ *\n'
 local Info_ = redis:smembers(bot_id..":"..msg.chat_id..":Status:Administrator") 
 if #Info_ == 0 then
@@ -7833,7 +7833,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = ' ᥀︙ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙎𝙆𝙐𝙇𝙕 ', url="t.me/VV455"}
+{text = ' ᥀︙ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙎𝙆𝙐𝙇𝙕 ', url="t.me/NNN8X"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -7848,7 +7848,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = ' ᥀︙ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙎𝙆𝙐𝙇𝙕 ', url="t.me/VV455"}
+{text = ' ᥀︙ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙎𝙆𝙐𝙇𝙕 ', url="t.me/NNN8X"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -7863,7 +7863,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = ' ᥀︙ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙎𝙆𝙐𝙇𝙕 ', url="t.me/VV455"}
+{text = ' ᥀︙ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙎𝙆𝙐𝙇𝙕 ', url="t.me/NNN8X"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -7878,7 +7878,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = ' ᥀︙ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙎𝙆𝙐𝙇𝙕 ', url="t.me/VV455"}
+{text = ' ᥀︙ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙎𝙆𝙐𝙇𝙕 ', url="t.me/NNN8X"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -7893,7 +7893,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = ' ᥀︙ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙎𝙆𝙐𝙇𝙕 ', url="t.me/VV455"}
+{text = ' ᥀︙ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙎𝙆𝙐𝙇𝙕 ', url="t.me/NNN8X"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -7908,7 +7908,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = ' ᥀︙ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙎𝙆𝙐𝙇𝙕 ', url="t.me/VV455"}
+{text = ' ᥀︙ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙎𝙆𝙐𝙇𝙕 ', url="t.me/NNN8X"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -7923,7 +7923,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = ' ᥀︙ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙎𝙆𝙐𝙇𝙕 ', url="t.me/VV455"}
+{text = ' ᥀︙ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙎𝙆𝙐𝙇𝙕 ', url="t.me/NNN8X"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -7938,7 +7938,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = ' ᥀︙ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙎𝙆𝙐𝙇𝙕 ', url="t.me/VV455"}
+{text = ' ᥀︙ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙎𝙆𝙐𝙇𝙕 ', url="t.me/NNN8X"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -7950,7 +7950,7 @@ end
 ----------------------------------------------------------------------------------------------------
 -- نهايه التفعيل
 if text == 'السورس' or text == 'سورس' or text == 'ياسورس' or text == 'يا سورس' then 
-local Text = "*ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴏᴜʀᴄᴇ yousef\n\n*[ ᥀︙  yousef ᴄʜᴀɴɴᴇʟ](http://t.me/VV455)*\n\n*[ ᥀︙  ɪɴғᴏ sᴏᴜʀᴄᴇ](http://t.me/VV455)*\n\n*[ ᥀︙  yousef ᴅᴇᴠᴇʟᴏᴘᴇʀ](http://t.me/yousef_labban)*\n\n*[ ᥀︙  ʙᴏᴛ yousef](http://t.me/VV455)*\n*"
+local Text = "*ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴏᴜʀᴄᴇ DaR\n\n*[ ᥀︙  SKULZ ᴄʜᴀɴɴᴇʟ](http://t.me/VV455)*\n\n*[ ᥀︙  ɪɴғᴏ sᴏᴜʀᴄᴇ](http://t.me/VV455)*\n\n*[ ᥀︙  SKULZ ᴅᴇᴠᴇʟᴏᴘᴇʀ](http://t.me/Zbbbbb)*\n\n*[ ᥀︙  ʙᴏᴛ DaR](http://t.me/Zbbbbb)*\n*"
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
