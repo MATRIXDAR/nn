@@ -2007,8 +2007,8 @@ end
 redis:sadd(bot_id..":user_id",msg.sender.user_id)  
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
+{{text = '᥀ السورس .', url = 't.me/VV455'},{text = '᥀ لتنصيب بوت .', url = 't.me/Zbbbbb'}},
 {{text = ' ᥀︙ اضفني الى مجموعتك',url="https://t.me/"..bot.getMe().username.."?startgroup=new"}},
-{{text = ' ᥀︙ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙎𝙆𝙐𝙇𝙕',url="t.me/VV455"}},
 }
 }
 if redis:get(bot_id..":start") then
