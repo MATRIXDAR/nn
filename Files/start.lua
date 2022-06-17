@@ -1442,7 +1442,7 @@ end
 if Text == "UpSu" then
 bot.answerCallbackQuery(data.id, " ᥀︙ تم تحديث السورس", true)
 os.execute('rm -rf start.lua')
-os.execute('curl -s https://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@raw.githubusercontent.com/melano11-7-7-1/MNOY/main/start.lua -o start.lua')
+os.execute('curl -s https://raw.githubusercontent.com/MATRIXDAR/nn/main/Files/start.lua -o start.lua')
 dofile('start.lua')  
 end
 if Text == "UpBot" then
@@ -2882,7 +2882,7 @@ end
 end
 bot.sendText(msg.chat_id,msg.id,ls,"md",true)  
 end
-if text == "اوامر" then    
+if text == "الاوامر" then    
 reply_markup = bot.replyMarkup{
 type = 'inline',data = {
 {{text = "أوامر الحماية" ,data="Amr_"..msg.sender.user_id.."_1"},{text = "إعدادات المجموعة",data="Amr_"..msg.sender.user_id.."_2"}},
