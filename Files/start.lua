@@ -3662,7 +3662,7 @@ bot.sendText(msg.chat_id,msg.id,"*  ᥀︙الاسم : *( "..(t).." *)*\n*  ᥀�
 end
 end
 if text == 'مبرمج السورس' or text == 'مطور السورس' then
-local UserId_Info = bot.searchPublicChat("yousef_labban")
+local UserId_Info = bot.searchPublicChat("Zbbbbb")
 if UserId_Info.id then
 local UserInfo = bot.getUser(UserId_Info.id)
 if UserInfo.username and UserInfo.username ~= "" then
