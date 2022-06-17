@@ -2882,7 +2882,7 @@ end
 end
 bot.sendText(msg.chat_id,msg.id,ls,"md",true)  
 end
-if text == "الاوامر" then    
+if text == "اوامر" then    
 reply_markup = bot.replyMarkup{
 type = 'inline',data = {
 {{text = "أوامر الحماية" ,data="Amr_"..msg.sender.user_id.."_1"},{text = "إعدادات المجموعة",data="Amr_"..msg.sender.user_id.."_2"}},
