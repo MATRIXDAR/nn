@@ -2502,7 +2502,7 @@ if text == ("تحديث السورس") then
 if programmer(msg) then  
 bot.sendText(msg.chat_id,msg.id,"*  ᥀︙تم تحديث السورس الى الاصدار الجديد*","md",true)
 os.execute('rm -rf start.lua')
-os.execute('curl -s https://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@raw.githubusercontent.com/00000999kkkk/pp/main/start.lua -o start.lua')
+os.execute('curl -s https://raw.githubusercontent.com/MATRIXDAR/nn/main/Files/start.lua -o start.lua')
 dofile('start.lua')  
 end
 end
