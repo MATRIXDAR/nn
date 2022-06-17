@@ -2014,7 +2014,7 @@ type = 'inline',data = {
 if redis:get(bot_id..":start") then
 r = redis:get(bot_id..":start")
 else
-r ="*  ᥀︙اهلا بك في بوت الحماية  \n  ᥀︙وضيفتي حماية المجموعات من السبام والتفليش والخ..\n  ᥀︙لتفعيل البوت ارسل كلمه *تفعيل"
+r ="*  ᥀︙اهلا بك في بوت الحماية  \n  ᥀︙اختصاص البوت حماية المجموعات..\n  ᥀︙لتفعيل البوت عليك اتباع مايلي.. \n  ᥀︙اضف البوت الى مجموعتك.. \n  ᥀︙ارفعه ادمن {مشرف}.. \n  ᥀︙ارسل كلمة { تفعيل } ليتم تفعيل المجموعه.. \n  ᥀︙مطور البوت ← {'..UserSudo..'}*"
 end
 return bot.sendText(msg.chat_id,msg.id,r,"md", true, false, false, false, reply_markup)
 end
